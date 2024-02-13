@@ -6,9 +6,11 @@ This datafield is an example for CIQ developers to demonstrate how a datafield c
 
 ## Description
 
+This datafield is an example for CIQ developers to demonstrate how a datafield can be added multiple times to a layout.
+
 Add this datafield to any activity, multiple times. As you add it to multiple fields (places in the layout) you'll see the detected layout, field position.
 
-If you like the app you can thank me by sending a beer: https://paypal.me/GavrielF or at least write a positive review with 5 stars ⭐⭐⭐⭐⭐.
+If you like the app you can thank me by sending a beer: https://paypal.me/GavrielF or https://buymeacoffee.com/flocsy or at least write a positive review with 5 stars ⭐⭐⭐⭐⭐.
 
 Support Forum: https://forums.garmin.com/developer/connect-iq/f/showcase/359783/datafield-df-detector
 
@@ -18,8 +20,13 @@ Support Forum: https://forums.garmin.com/developer/connect-iq/f/showcase/359783/
 - 2 - orange - in some layout(s) field can be detected but in some layout(s) the field is unknow (matches multiple fields in the same layout), unknown layout
 - 3 - red - unknown field
 - 4 - green - unknown field hash (need to add the device or fix the dimensions of the field in the source code)
+    NOTE: if you see green background with "unknown" label then please take a screenshot and send it to the Support Forum indicating the device you have.
+    Unknown field hash means that there is a bug in the SDK's simulator.json and Garmin need to fix it.
 
 ## Changelog
+
+1.1 (2024-02-08)
+    - remove field index
 
 1.0 (2024-02-07)
     - initial release

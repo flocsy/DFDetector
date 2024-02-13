@@ -51,7 +51,7 @@ class DFDetectorView extends WatchUi.DataField {
         if (fieldName == null) {
             fieldName = loadResource(Rez.Strings.unknown) as String;
         }
-        fieldName = " " + fieldIdx + ". " + fieldName + " ";
+        fieldName = " " + fieldName + " ";
         var status = DATAFIELD_HASH_2_FIELD_STATUS[hash];
         if (status == null) {
             status = 4;
