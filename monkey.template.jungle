@@ -6,4 +6,4 @@ project.optimization = 3z
 base.sourcePath = source
 base.excludeAnnotations = base
 
-monkey_generator_register = datafield_detector;color_depth
+monkey_generator_register = datafield_detector;color_depth;shape

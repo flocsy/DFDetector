@@ -1,5 +1,6 @@
 <strings>
     <string id="AppName">DFDetector</string>
 
+    <string id="rectangleDevice">rectangle device</string>
     <string id="unknown">unknown</string>
 </strings>

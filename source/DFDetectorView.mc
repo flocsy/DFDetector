@@ -5,11 +5,6 @@ import Toybox.WatchUi;
 
 class DFDetectorView extends WatchUi.DataField {
 
-    hidden var mFieldCounter as Numeric = 0;
-    hidden var mFieldCount as Numeric = 0;
-    hidden var mComputeCalled as Boolean = false;
-    hidden var mFieldCountValid as Boolean = false;
-
     function initialize() {
         DataField.initialize();
     }
@@ -27,21 +22,11 @@ class DFDetectorView extends WatchUi.DataField {
     // guarantee that compute() will be called before onUpdate().
     function compute(info as Activity.Info) as Void {
         log("compute");
-        if (mComputeCalled && mFieldCount != mFieldCounter) {
-            mFieldCount = mFieldCounter;
-            mFieldCountValid = true;
-        } else {
-            mComputeCalled = true;
-        }
-        mFieldCounter = 0;
     }
 
     // Display the value you computed here. This will be called
     // once a second when the data field is visible.
     function onUpdate(dc as Dc) as Void {
-        var fieldIdx = mFieldCounter;
-        mFieldCounter = fieldIdx + 1;
-
         var width = dc.getWidth();
         var height = dc.getHeight();
         var obscurityFlags = DataField.getObscurityFlags();
@@ -49,12 +34,12 @@ class DFDetectorView extends WatchUi.DataField {
 
         var fieldName = DATAFIELD_HASH_2_FIELD_NAME[hash];
         if (fieldName == null) {
-            fieldName = loadResource(Rez.Strings.unknown) as String;
+            fieldName = loadResource(RECTANGLE ? Rez.Strings.rectangleDevice : Rez.Strings.unknown) as String;
         }
         fieldName = " " + fieldName + " ";
         var status = DATAFIELD_HASH_2_FIELD_STATUS[hash];
         if (status == null) {
-            status = 4;
+            status = RECTANGLE ? STATUS_RECTANGLE_DEVICE : STATUS_UNKNOWN;
         }
         var backgroundColor = FIELD_STATUS_2_COLOR[status];
         var text = " " + width + "x" + height + "@" + obscurityFlags + ":" + status + " ";

@@ -19,11 +19,15 @@ Support Forum: https://forums.garmin.com/developer/connect-iq/f/showcase/359783/
 - 1 - gray - field detected inside the layout but could be in multiple layouts
 - 2 - orange - in some layout(s) field can be detected but in some layout(s) the field is unknow (matches multiple fields in the same layout), unknown layout
 - 3 - red - unknown field
-- 4 - green - unknown field hash (need to add the device or fix the dimensions of the field in the source code)
+- 4 - blue - rectangle device
+- 5 - green - unknown field hash (need to add the device or fix the dimensions of the field in the source code)
     NOTE: if you see green background with "unknown" label then please take a screenshot and send it to the Support Forum indicating the device you have.
     Unknown field hash means that there is a bug in the SDK's simulator.json and Garmin need to fix it.
 
 ## Changelog
+
+1.2 (2024-02-08)
+    - add rectangle devices
 
 1.1 (2024-02-08)
     - remove field index
