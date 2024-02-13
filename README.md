@@ -10,7 +10,7 @@ Add this datafield to any activity, multiple times. As you add it to multiple fi
 
 If you like the app you can thank me by sending a beer: https://paypal.me/GavrielF or at least write a positive review with 5 stars ⭐⭐⭐⭐⭐.
 
-Support Forum: https://t.ly/K3kL
+Support Forum: https://forums.garmin.com/developer/connect-iq/f/showcase/359783/datafield-df-detector
 
 ## Legend
 - 0 - white - field and layout detected
