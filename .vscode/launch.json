@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "monkeyc",
+            "request": "launch",
+            "name": "Run App",
+            "stopAtLaunch": false,
+            "device": "${command:GetTargetDevice}"
+        },
+        {
+            "type": "monkeyc",
+            "request": "launch",
+            "name": "Run Tests",
+            "runTests": true,
+            "device": "${command:GetTargetDevice}"
+        },
+        {
+            "type": "omonkeyc",
+            "request": "launch",
+            "name": "Build and Run Optimized - Release",
+            "stopAtLaunch": false,
+            "device": "${command:GetTargetDevice}",
+            "typeCheckLevel": "Strict",
+            "releaseBuild": true
+        },
+        {
+            "type": "omonkeyc",
+            "request": "launch",
+            "name": "Build and Run Optimized - Debug",
+            "stopAtLaunch": false,
+            "device": "${command:GetTargetDevice}",
+            "typeCheckLevel": "Strict",
+            "releaseBuild": false
+        },
+        {
+            "type": "omonkeyc",
+            "request": "launch",
+            "name": "Run Optimized Tests",
+            "stopAtLaunch": false,
+            "runTests": true,
+            "device": "${command:GetTargetDevice}",
+            "typeCheckLevel": "Strict",
+            "releaseBuild": false
+        }
+    ]
+}

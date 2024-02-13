@@ -1,0 +1,6 @@
+{
+    "search.exclude": {
+        "**/bin": true
+    },
+    "prettierMonkeyC.typeCheckLevel": "Strict"
+}

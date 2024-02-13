@@ -1,0 +1,9 @@
+project.manifest = manifest.xml
+
+project.typecheck = 3
+project.optimization = 3z
+
+base.sourcePath = source
+base.excludeAnnotations = base
+
+monkey_generator_register = datafield_detector;color_depth
