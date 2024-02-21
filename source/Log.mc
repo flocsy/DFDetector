@@ -42,6 +42,8 @@ function errorRelease(msg as String?) as Void {
     logRelease(msg);
 }
 
+typedef AlphaNumeric as String or Number;
+
 (:no_inline)
 function timeFormat(moment as Moment) as AlphaNumeric {
     var time = Time.Gregorian.info(moment as Moment, Time.FORMAT_SHORT);

@@ -8,9 +8,9 @@ project.optimization = 3z
 base.sourcePath = source
 base.excludeAnnotations = base
 
-monkey_generator_register = datafield_detector;color_depth;shape
+monkey_generator_register = datafield_detector;color;shape
 
-# GENERATED 129 devices #
+# GENERATED 131 devices #
 
 approachs60.sourcePath=$(approachs60.sourcePath);gen/devices/approachs60
 approachs60.excludeAnnotations=$(approachs60.excludeAnnotations);no_color;rectangle
@@ -138,6 +138,10 @@ fenix7xpronowifi.sourcePath=$(fenix7xpronowifi.sourcePath);gen/devices/fenix7xpr
 fenix7xpronowifi.excludeAnnotations=$(fenix7xpronowifi.excludeAnnotations);no_color;rectangle
 fenixchronos.sourcePath=$(fenixchronos.sourcePath);gen/devices/fenixchronos
 fenixchronos.excludeAnnotations=$(fenixchronos.excludeAnnotations);no_color;rectangle
+fr165.sourcePath=$(fr165.sourcePath);gen/devices/fr165
+fr165.excludeAnnotations=$(fr165.excludeAnnotations);no_color;rectangle
+fr165m.sourcePath=$(fr165m.sourcePath);gen/devices/fr165m
+fr165m.excludeAnnotations=$(fr165m.excludeAnnotations);no_color;rectangle
 fr230.sourcePath=$(fr230.sourcePath);gen/devices/fr230
 fr230.excludeAnnotations=$(fr230.excludeAnnotations);no_color;rectangle
 fr235.sourcePath=$(fr235.sourcePath);gen/devices/fr235
