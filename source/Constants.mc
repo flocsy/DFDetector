@@ -8,10 +8,10 @@ import Toybox.Lang;
 (:release) const LOG = false;
 (:release) const DEBUG_LAYOUT = false;
 
-(:no_rectangle) const ROUND = true;
-(:rectangle) const ROUND = false;
-(:no_rectangle) const RECTANGLE = false;
-(:rectangle) const RECTANGLE = true;
+(:no_shape_rectangle) const ROUND = true;
+(:shape_rectangle) const ROUND = false;
+(:no_shape_rectangle) const RECTANGLE = false;
+(:shape_rectangle) const RECTANGLE = true;
 
 const STATUS_FIELD_AND_LAYOUT = 0;
 const STATUS_FIELD_ONLY = 1;

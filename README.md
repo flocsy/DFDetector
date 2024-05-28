@@ -42,6 +42,10 @@ obscurity flags: 'b': bottom, 'r': right, 't': top, 'l': left. i.e: 260x129@rtl 
 
 ## Changelog
 
+2.1 (2024-05-29)
+    - fix (Garmin bug) the layouts of some devices
+    - use SDK 7.1.1
+
 2.0 (2024-02-21)
     - add "pages" to display more information 
     - add fr165
