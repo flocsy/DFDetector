@@ -13,7 +13,7 @@ project.optimization = 3z
 # GENERATED #
 # excluded 0 devices that are incompatible and are not in manifest.xml: 
 # filtered out 0 incompatible devices by constraints from manifest.xml: 
-# included 131 devices
+# included 138 devices
 
 base.sourcePath=source
 base.excludeAnnotations=base
@@ -63,6 +63,8 @@ edge1030plus.sourcePath=$(edge1030plus.sourcePath);gen/devices/edge1030plus
 edge1030plus.excludeAnnotations=$(edge1030plus.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 edge1040.sourcePath=$(edge1040.sourcePath);gen/devices/edge1040
 edge1040.excludeAnnotations=$(edge1040.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
+edge1050.sourcePath=$(edge1050.sourcePath);gen/devices/edge1050
+edge1050.excludeAnnotations=$(edge1050.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 edge130.sourcePath=$(edge130.sourcePath);gen/devices/edge130
 edge130.excludeAnnotations=$(edge130.excludeAnnotations);color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 edge130plus.sourcePath=$(edge130plus.sourcePath);gen/devices/edge130plus
@@ -89,6 +91,8 @@ edgeexplore2.sourcePath=$(edgeexplore2.sourcePath);gen/devices/edgeexplore2
 edgeexplore2.excludeAnnotations=$(edgeexplore2.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 enduro.sourcePath=$(enduro.sourcePath);gen/devices/enduro
 enduro.excludeAnnotations=$(enduro.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+enduro3.sourcePath=$(enduro3.sourcePath);gen/devices/enduro3
+enduro3.excludeAnnotations=$(enduro3.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 epix.sourcePath=$(epix.sourcePath);gen/devices/epix
 epix.excludeAnnotations=$(epix.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 epix2.sourcePath=$(epix2.sourcePath);gen/devices/epix2
@@ -141,8 +145,18 @@ fenix7xpro.sourcePath=$(fenix7xpro.sourcePath);gen/devices/fenix7xpro
 fenix7xpro.excludeAnnotations=$(fenix7xpro.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 fenix7xpronowifi.sourcePath=$(fenix7xpronowifi.sourcePath);gen/devices/fenix7xpronowifi
 fenix7xpronowifi.excludeAnnotations=$(fenix7xpronowifi.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+fenix843mm.sourcePath=$(fenix843mm.sourcePath);gen/devices/fenix843mm
+fenix843mm.excludeAnnotations=$(fenix843mm.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+fenix847mm.sourcePath=$(fenix847mm.sourcePath);gen/devices/fenix847mm
+fenix847mm.excludeAnnotations=$(fenix847mm.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+fenix8solar47mm.sourcePath=$(fenix8solar47mm.sourcePath);gen/devices/fenix8solar47mm
+fenix8solar47mm.excludeAnnotations=$(fenix8solar47mm.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+fenix8solar51mm.sourcePath=$(fenix8solar51mm.sourcePath);gen/devices/fenix8solar51mm
+fenix8solar51mm.excludeAnnotations=$(fenix8solar51mm.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 fenixchronos.sourcePath=$(fenixchronos.sourcePath);gen/devices/fenixchronos
 fenixchronos.excludeAnnotations=$(fenixchronos.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+fenixe.sourcePath=$(fenixe.sourcePath);gen/devices/fenixe
+fenixe.excludeAnnotations=$(fenixe.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 fr165.sourcePath=$(fr165.sourcePath);gen/devices/fr165
 fr165.excludeAnnotations=$(fr165.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 fr165m.sourcePath=$(fr165m.sourcePath);gen/devices/fr165m

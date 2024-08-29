@@ -42,6 +42,10 @@ obscurity flags: 'b': bottom, 'r': right, 't': top, 'l': left. i.e: 260x129@rtl 
 
 ## Changelog
 
+2.2 (2024-08-29)
+    - added edge1050,fenix8*,fenixe,enduro3
+    - use SDK 7.3.0
+
 2.1 (2024-05-29)
     - fix (Garmin bug) the layouts of some devices
     - use SDK 7.1.1

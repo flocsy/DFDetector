@@ -3,29 +3,33 @@
 import Toybox.Lang;
 import Toybox.Graphics;
 
-(:datafield, :datafield_hash, :datafield_field_names) const DEFAULT_FIELD_NAMES = null /*conflict*/; // x2
+(:datafield, :datafield_hash, :datafield_field_names) const DEFAULT_FIELD_NAMES = 1.0; // [1.0, 2.0, 2.1, 3.0, 3.1, 3.2, 4.0, 4.1, 4.2, 4.3] x1
 (:datafield, :datafield_hash, :datafield_field_names) const DATAFIELD_HASH_2_FIELD_NAMES = {
-	22715401 /*227x154@l*/ => "4.1", // {4.1: 4.1}
-	22715404 /*227x154@r*/ => "4.2", // {4.2: 4.2}
-	45415007 /*454x150@lrt*/ => "3.0|4.0", // {3.0: 3.0, 4.0: 4.0}
-	45415013 /*454x150@blr*/ => "3.2|4.3", // {3.2: 3.2, 4.3: 4.3}
-	45415405 /*454x154@lr*/ => "3.1", // {3.1: 3.1}
-	45422707 /*454x227@lrt*/ => "2.0", // {2.0: 2.0}
-	45422713 /*454x227@blr*/ => "2.1", // {2.1: 2.1}
+	21812701 /*218x127@l*/ => "4.1", // {4.1: 4.1}
+	21812704 /*218x127@r*/ => "4.2", // {4.2: 4.2}
+	26016413 /*260x164@blr*/ => "3.2", // {3.2: 3.2}
+	26916713 /*269x167@blr*/ => "4.3", // {4.3: 4.3}
+	45413205 /*454x132@lr*/ => "3.1", // {3.1: 3.1}
+	45415407 /*454x154@lrt*/ => "3.0", // {3.0: 3.0}
+	45415607 /*454x156@lrt*/ => "4.0", // {4.0: 4.0}
+	45422607 /*454x226@lrt*/ => "2.0", // {2.0: 2.0}
+	45422613 /*454x226@blr*/ => "2.1", // {2.1: 2.1}
 	45445415 /*454x454@blrt*/ => "1.0", // {1.0: 1.0}
 } as Dictionary<Number, String>;
 
-(:datafield, :datafield_hash, :datafield_field_status) const DEFAULT_FIELD_STATUS = 0; // x6
+(:datafield, :datafield_hash, :datafield_field_status) const DEFAULT_FIELD_STATUS = 0; // x10
 (:datafield, :datafield_hash, :datafield_field_status) const DATAFIELD_HASH_2_FIELD_STATUS = {
-	// 22715401 /*227x154@l*/ => 0 /*default*/, // {4.1: 0}
-	// 22715404 /*227x154@r*/ => 0 /*default*/, // {4.2: 0}
-	45415007 /*454x150@lrt*/ => 1, // {3.0: 1, 4.0: 1}
-	45415013 /*454x150@blr*/ => 1, // {3.2: 1, 4.3: 1}
-	// 45415405 /*454x154@lr*/ => 0 /*default*/, // {3.1: 0}
-	// 45422707 /*454x227@lrt*/ => 0 /*default*/, // {2.0: 0}
-	// 45422713 /*454x227@blr*/ => 0 /*default*/, // {2.1: 0}
+	// 21812701 /*218x127@l*/ => 0 /*default*/, // {4.1: 0}
+	// 21812704 /*218x127@r*/ => 0 /*default*/, // {4.2: 0}
+	// 26016413 /*260x164@blr*/ => 0 /*default*/, // {3.2: 0}
+	// 26916713 /*269x167@blr*/ => 0 /*default*/, // {4.3: 0}
+	// 45413205 /*454x132@lr*/ => 0 /*default*/, // {3.1: 0}
+	// 45415407 /*454x154@lrt*/ => 0 /*default*/, // {3.0: 0}
+	// 45415607 /*454x156@lrt*/ => 0 /*default*/, // {4.0: 0}
+	// 45422607 /*454x226@lrt*/ => 0 /*default*/, // {2.0: 0}
+	// 45422613 /*454x226@blr*/ => 0 /*default*/, // {2.1: 0}
 	// 45445415 /*454x454@blrt*/ => 0 /*default*/, // {1.0: 0}
 } as Dictionary<Number, Number>;
 
 (:datafield_detector)
-const DEVICE_STATUS = 1;
+const DEVICE_STATUS = 0;
