@@ -1,4 +1,4 @@
-# GENERATED from 'monkey.template.jungle' by https://github.com/flocsy/garmin-dev-tools/tree/main/monkey-generator/ ©2022-2024 by flocsy
+# GENERATED from 'monkey.template.jungle' by https://github.com/flocsy/garmin-dev-tools/tree/main/monkey-generator/ ©2022-2025 by flocsy
 
 project.manifest = manifest.xml
 
@@ -13,10 +13,12 @@ project.optimization = 3z
 # GENERATED #
 # excluded 0 devices that are incompatible and are not in manifest.xml: 
 # filtered out 0 incompatible devices by constraints from manifest.xml: 
-# included 138 devices
+# included 146 devices
 
 base.sourcePath=source
 base.excludeAnnotations=base
+approachs50.sourcePath=$(approachs50.sourcePath);gen/devices/approachs50
+approachs50.excludeAnnotations=$(approachs50.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 approachs60.sourcePath=$(approachs60.sourcePath);gen/devices/approachs60
 approachs60.excludeAnnotations=$(approachs60.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 approachs62.sourcePath=$(approachs62.sourcePath);gen/devices/approachs62
@@ -45,6 +47,8 @@ d2mach1.sourcePath=$(d2mach1.sourcePath);gen/devices/d2mach1
 d2mach1.excludeAnnotations=$(d2mach1.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 descentg1.sourcePath=$(descentg1.sourcePath);gen/devices/descentg1
 descentg1.excludeAnnotations=$(descentg1.excludeAnnotations);color;shape_rectangle;shape_round;no_shape_semi_octagon;shape_semi_round
+descentg2.sourcePath=$(descentg2.sourcePath);gen/devices/descentg2
+descentg2.excludeAnnotations=$(descentg2.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 descentmk1.sourcePath=$(descentmk1.sourcePath);gen/devices/descentmk1
 descentmk1.excludeAnnotations=$(descentmk1.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 descentmk2.sourcePath=$(descentmk2.sourcePath);gen/devices/descentmk2
@@ -217,8 +221,18 @@ instinct2s.sourcePath=$(instinct2s.sourcePath);gen/devices/instinct2s
 instinct2s.excludeAnnotations=$(instinct2s.excludeAnnotations);color;shape_rectangle;shape_round;no_shape_semi_octagon;shape_semi_round
 instinct2x.sourcePath=$(instinct2x.sourcePath);gen/devices/instinct2x
 instinct2x.excludeAnnotations=$(instinct2x.excludeAnnotations);color;shape_rectangle;shape_round;no_shape_semi_octagon;shape_semi_round
+instinct3amoled45mm.sourcePath=$(instinct3amoled45mm.sourcePath);gen/devices/instinct3amoled45mm
+instinct3amoled45mm.excludeAnnotations=$(instinct3amoled45mm.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+instinct3amoled50mm.sourcePath=$(instinct3amoled50mm.sourcePath);gen/devices/instinct3amoled50mm
+instinct3amoled50mm.excludeAnnotations=$(instinct3amoled50mm.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+instinct3solar45mm.sourcePath=$(instinct3solar45mm.sourcePath);gen/devices/instinct3solar45mm
+instinct3solar45mm.excludeAnnotations=$(instinct3solar45mm.excludeAnnotations);color;shape_rectangle;shape_round;no_shape_semi_octagon;shape_semi_round
 instinctcrossover.sourcePath=$(instinctcrossover.sourcePath);gen/devices/instinctcrossover
 instinctcrossover.excludeAnnotations=$(instinctcrossover.excludeAnnotations);color;shape_rectangle;shape_round;no_shape_semi_octagon;shape_semi_round
+instincte40mm.sourcePath=$(instincte40mm.sourcePath);gen/devices/instincte40mm
+instincte40mm.excludeAnnotations=$(instincte40mm.excludeAnnotations);color;shape_rectangle;shape_round;no_shape_semi_octagon;shape_semi_round
+instincte45mm.sourcePath=$(instincte45mm.sourcePath);gen/devices/instincte45mm
+instincte45mm.excludeAnnotations=$(instincte45mm.excludeAnnotations);color;shape_rectangle;shape_round;no_shape_semi_octagon;shape_semi_round
 legacyherocaptainmarvel.sourcePath=$(legacyherocaptainmarvel.sourcePath);gen/devices/legacyherocaptainmarvel
 legacyherocaptainmarvel.excludeAnnotations=$(legacyherocaptainmarvel.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 legacyherofirstavenger.sourcePath=$(legacyherofirstavenger.sourcePath);gen/devices/legacyherofirstavenger
@@ -291,5 +305,7 @@ vivoactive4s.sourcePath=$(vivoactive4s.sourcePath);gen/devices/vivoactive4s
 vivoactive4s.excludeAnnotations=$(vivoactive4s.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 vivoactive5.sourcePath=$(vivoactive5.sourcePath);gen/devices/vivoactive5
 vivoactive5.excludeAnnotations=$(vivoactive5.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+vivoactive6.sourcePath=$(vivoactive6.sourcePath);gen/devices/vivoactive6
+vivoactive6.excludeAnnotations=$(vivoactive6.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 vivoactive_hr.sourcePath=$(vivoactive_hr.sourcePath);gen/devices/vivoactive_hr
 vivoactive_hr.excludeAnnotations=$(vivoactive_hr.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
