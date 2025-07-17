@@ -42,6 +42,9 @@ obscurity flags: 'b': bottom, 'r': right, 't': top, 'l': left. i.e: 260x129@rtl 
 
 ## Changelog
 
+2.4 (2025-07-17)
+    - add edgemtb, fr570, fr970, venux1
+
 2.3 (2025-04-07)
     - added approachs50, descentg2, instinct3, instincte, vivoactive6
 

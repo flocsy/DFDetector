@@ -47,10 +47,10 @@ class DFDetectorView extends WatchUi.DataField {
         if (status == null) {
             status = DEFAULT_FIELD_STATUS;
         }
-        if (status == null) {
-            // status = RECTANGLE ? STATUS_RECTANGLE_DEVICE : STATUS_UNKNOWN;
-            status = STATUS_UNKNOWN;
-        }
+        // if (status == null) {
+        //     // status = RECTANGLE ? STATUS_RECTANGLE_DEVICE : STATUS_UNKNOWN;
+        //     status = STATUS_UNKNOWN;
+        // }
 
         var obscurityDirections = OBSCURITY_FLAG_2_DIRECTIONS[obscurityFlags as Number];
         var text;
@@ -116,7 +116,7 @@ class DFDetectorView extends WatchUi.DataField {
                 break;
             case 7: // rtl top-arc | top-half
                 justify = Graphics.TEXT_JUSTIFY_CENTER /* should be BOTTOM */;
-                if (labelFont != null && height * 5 / 2 < width) {
+                if (height * 5 / 2 < width) {
                     labelFont = decreaseFontSize(labelFont, 2);
                     labelFontHeight = dc.getFontHeight(labelFont);
                     lineHeight = (labelFontHeight + valueFontHeight) / 4;
@@ -160,7 +160,7 @@ class DFDetectorView extends WatchUi.DataField {
             default:
                 log("unknown obscurityFlags: " + obscurityDirections + "(" + obscurityFlags + ")");
         }
-        log("onUpdate: " + width + "x" + height + "@" + obscurityDirections + "(" + obscurityFlags + "), lF:" + (labelFont as Number) + ", vF:" + (valueFont as Number) + ", labelH: " + labelFontHeight + ", valueH: " + valueFontHeight + ", ly: " + ly + ", vy: " + vy + ", lineH: " + lineHeight + ", label: " + label + ", data: " + text + ", status: " + status);
+        log("onUpdate: " + width + "x" + height + "@" + obscurityDirections + "(" + obscurityFlags + "), lF:" + labelFont + ", vF:" + (valueFont as Number) + ", labelH: " + labelFontHeight + ", valueH: " + valueFontHeight + ", ly: " + ly + ", vy: " + vy + ", lineH: " + lineHeight + ", label: " + label + ", data: " + text + ", status: " + status);
 
         dc.setColor(Graphics.COLOR_BLACK, backgroundColor);
         dc.clear();

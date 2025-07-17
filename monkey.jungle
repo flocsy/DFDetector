@@ -1,6 +1,7 @@
-# GENERATED from 'monkey.template.jungle' by https://github.com/flocsy/garmin-dev-tools/tree/main/monkey-generator/ ©2022-2025 by flocsy
+# GENERATED from 'monkey.template.jungle' by https://github.com/flocsy/garmin-dev-tools/tree/main/monkey-generator/ © by flocsy
 
-project.manifest = manifest.xml
+project.manifest = manifest-prod.xml
+## project.manifest = manifest.xml
 
 project.typecheck = 3
 project.optimization = 3z
@@ -11,9 +12,9 @@ project.optimization = 3z
 # monkey_generator_register = datafield_detector;color;shape
 
 # GENERATED #
-# excluded 0 devices that are incompatible and are not in manifest.xml: 
-# filtered out 0 incompatible devices by constraints from manifest.xml: 
-# included 146 devices
+# excluded 0 devices that are incompatible and are not in manifest-prod.xml: 
+# filtered out 0 incompatible devices by constraints from manifest-prod.xml: 
+# included 151 devices
 
 base.sourcePath=source
 base.excludeAnnotations=base
@@ -93,6 +94,8 @@ edgeexplore.sourcePath=$(edgeexplore.sourcePath);gen/devices/edgeexplore
 edgeexplore.excludeAnnotations=$(edgeexplore.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 edgeexplore2.sourcePath=$(edgeexplore2.sourcePath);gen/devices/edgeexplore2
 edgeexplore2.excludeAnnotations=$(edgeexplore2.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
+edgemtb.sourcePath=$(edgemtb.sourcePath);gen/devices/edgemtb
+edgemtb.excludeAnnotations=$(edgemtb.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 enduro.sourcePath=$(enduro.sourcePath);gen/devices/enduro
 enduro.excludeAnnotations=$(enduro.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 enduro3.sourcePath=$(enduro3.sourcePath);gen/devices/enduro3
@@ -187,6 +190,10 @@ fr265s.sourcePath=$(fr265s.sourcePath);gen/devices/fr265s
 fr265s.excludeAnnotations=$(fr265s.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 fr55.sourcePath=$(fr55.sourcePath);gen/devices/fr55
 fr55.excludeAnnotations=$(fr55.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+fr57042mm.sourcePath=$(fr57042mm.sourcePath);gen/devices/fr57042mm
+fr57042mm.excludeAnnotations=$(fr57042mm.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+fr57047mm.sourcePath=$(fr57047mm.sourcePath);gen/devices/fr57047mm
+fr57047mm.excludeAnnotations=$(fr57047mm.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 fr630.sourcePath=$(fr630.sourcePath);gen/devices/fr630
 fr630.excludeAnnotations=$(fr630.excludeAnnotations);no_color;shape_rectangle;shape_round;shape_semi_octagon;no_shape_semi_round
 fr645.sourcePath=$(fr645.sourcePath);gen/devices/fr645
@@ -209,6 +216,8 @@ fr955.sourcePath=$(fr955.sourcePath);gen/devices/fr955
 fr955.excludeAnnotations=$(fr955.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 fr965.sourcePath=$(fr965.sourcePath);gen/devices/fr965
 fr965.excludeAnnotations=$(fr965.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
+fr970.sourcePath=$(fr970.sourcePath);gen/devices/fr970
+fr970.excludeAnnotations=$(fr970.excludeAnnotations);no_color;shape_rectangle;no_shape_round;shape_semi_octagon;shape_semi_round
 gpsmap66.sourcePath=$(gpsmap66.sourcePath);gen/devices/gpsmap66
 gpsmap66.excludeAnnotations=$(gpsmap66.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 gpsmap67.sourcePath=$(gpsmap67.sourcePath);gen/devices/gpsmap67
@@ -289,6 +298,8 @@ venusq2m.sourcePath=$(venusq2m.sourcePath);gen/devices/venusq2m
 venusq2m.excludeAnnotations=$(venusq2m.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 venusqm.sourcePath=$(venusqm.sourcePath);gen/devices/venusqm
 venusqm.excludeAnnotations=$(venusqm.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
+venux1.sourcePath=$(venux1.sourcePath);gen/devices/venux1
+venux1.excludeAnnotations=$(venux1.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 vivoactive.sourcePath=$(vivoactive.sourcePath);gen/devices/vivoactive
 vivoactive.excludeAnnotations=$(vivoactive.excludeAnnotations);no_color;no_shape_rectangle;shape_round;shape_semi_octagon;shape_semi_round
 vivoactive3.sourcePath=$(vivoactive3.sourcePath);gen/devices/vivoactive3
