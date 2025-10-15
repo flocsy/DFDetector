@@ -42,6 +42,9 @@ obscurity flags: 'b': bottom, 'r': right, 't': top, 'l': left. i.e: 260x129@rtl 
 
 ## Changelog
 
+2.5 (2025-10-15)
+    - add edge550, edge850, etrextouch, fenix8pro, gpsmaph1, instinctcrossoveramoled, venu4
+
 2.4 (2025-07-17)
     - add edgemtb, fr570, fr970, venux1
 

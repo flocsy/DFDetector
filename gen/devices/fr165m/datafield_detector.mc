@@ -3,7 +3,7 @@
 import Toybox.Lang;
 import Toybox.Graphics;
 
-(:datafield, :datafield_hash, :datafield_field_names) const DEFAULT_FIELD_NAMES = 1.0; // [1.0, 2.0, 2.1, 3A.0, 3A.1, 3A.2, 3B.0, 3B.1, 3B.2, 4.0, 4.1, 4.2, 4.3, null /*conflict*/] x1
+(:datafield, :datafield_hash, :datafield_field_names) const DEFAULT_FIELD_NAMES = "1.0"; // ["1.0", "2.0", "2.1", "3A.0", "3A.1", "3A.2", "3B.0", "3B.1", "3B.2", "4.0", "4.1", "4.2", "4.3", null /*conflict*/] x1
 (:datafield, :datafield_hash, :datafield_field_names) const DATAFIELD_HASH_2_FIELD_NAMES = {
 	19311601 /*193x116@l*/ => "4.1", // {4.1: 4.1}
 	19311604 /*193x116@r*/ => "4.2", // {4.2: 4.2}
@@ -16,7 +16,7 @@ import Toybox.Graphics;
 	39014013 /*390x140@blr*/ => "3A.2", // {3A.2: 3A.2}
 	39019307 /*390x193@lrt*/ => "2.0", // {2.0: 2.0}
 	39019413 /*390x194@blr*/ => "2.1", // {2.1: 2.1}
-	39039015 /*390x390@blrt*/ => "1.0", // {1.0: 1.0}
+	// 39039015 /*390x390@blrt*/ => "1.0" /*default*/, // {1.0: 1.0}
 } as Dictionary<Number, String>;
 
 (:datafield, :datafield_hash, :datafield_field_status) const DEFAULT_FIELD_STATUS = 0; // x11
